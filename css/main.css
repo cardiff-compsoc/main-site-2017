@@ -10,3 +10,15 @@
 /*#main-menu {
   padding: 10px 20px 0px 0px;
 }*/
+
+#cdf-logo {
+  padding: 20px 0px 10px 0px;
+}
+#compsoc-logo {
+  padding: 0px 0px 20px 0px;
+}
+
+/* tag based */
+div {
+  padding: 50px 0px 0px 0px;
+}

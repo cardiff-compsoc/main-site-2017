@@ -5,10 +5,14 @@ $(document).ready(function() {
   $('#nav').find('a').each(function() {
     $(this).toggleClass('active',
       $(this).attr('href').substring(1) == loc);
+
+    $(this).hover(function() {
+      $(this).toggleClass("active");
+    });
   });
 
 
-
+if (window.location.pathname == '/events.php'){
   $('#calendar').fullCalendar({
     googleCalendarApiKey: 'AIzaSyBVg_79r8ngOQz4bu-6rnt2KD2EbS8vaBM',
     events: {
@@ -23,4 +27,5 @@ $(document).ready(function() {
     header: false,
     height: "auto",
     });
+};
 });
