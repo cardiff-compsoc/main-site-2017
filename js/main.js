@@ -6,26 +6,33 @@ $(document).ready(function() {
     $(this).toggleClass('active',
       $(this).attr('href').substring(1) == loc);
 
-    $(this).hover(function() {
-      $(this).toggleClass("active");
-    });
+    // $(this).hover(function() {
+    //   $(this).toggleClass("active");
+    // });
+  });
+
+  $(".toc.item").click(function() {
+    $('.ui.sidebar')
+      .sidebar('setting', 'transition', 'scale down')
+      .sidebar('toggle')
+    ;
   });
 
 
-if (window.location.pathname == '/events.php'){
-  $('#calendar').fullCalendar({
-    googleCalendarApiKey: 'AIzaSyBVg_79r8ngOQz4bu-6rnt2KD2EbS8vaBM',
-    events: {
-      googleCalendarId: 'comscisociety@cardiff.ac.uk'
-    },
+  if (window.location.pathname == '/events.php'){
+    $('#calendar').fullCalendar({
+      googleCalendarApiKey: 'AIzaSyBVg_79r8ngOQz4bu-6rnt2KD2EbS8vaBM',
+      events: {
+        googleCalendarId: 'comscisociety@cardiff.ac.uk'
+      },
 
-    defaultView: "list",
-    visibleRange: {
-      start: moment(),
-      end: '2018-05-30',
-    },
-    header: false,
-    height: "auto",
-    });
-};
+      defaultView: "list",
+      visibleRange: {
+        start: moment(),
+        end: '2018-05-30',
+      },
+      header: false,
+      height: "auto",
+      });
+  };
 });

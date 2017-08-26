@@ -12,8 +12,10 @@
 <link rel='stylesheet' href='./css/fullcalendar.min.css' />
 
 
+<div class="ui container">
+  <div id="calendar"></div>
+</div>
 
-<div id="calendar"></div>
 
 
 
