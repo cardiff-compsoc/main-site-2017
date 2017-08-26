@@ -11,10 +11,27 @@
 ?>
 <link rel='stylesheet' href='./css/fullcalendar.min.css' />
 
+<div class="ui two column stackable grid container ">
+  <div class="column">
+    <div class="ui center aligned container">
+      <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=comscisociety%40cardiff.ac.uk&amp;color=%23711616&amp;ctz=Europe%2FLondon" style="border-width:0" width="320" height="400" frameborder="0" scrolling="no"></iframe>
+    </div>
+  </div>
+    <div class="column">
+      <div class="ui center aligned container">
+        <div class="ui raised segment">
+          <div class="ui horizontal divider"><h1 class="ui header">Our Events</h1></div>
+        </div>
 
-<div class="ui container">
-  <div id="calendar"></div>
+
+      </div>
+    </div>
+
+  </div>
+
+
 </div>
+
 
 
 
@@ -24,6 +41,3 @@
 <?php
   include("./includes/footer.htm");
 ?>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
-<script src="./js/fullcalendar.min.js"></script>
-<script src="./js/gcal.min.js"></script>
