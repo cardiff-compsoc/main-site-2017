@@ -5,11 +5,12 @@
 
 <div id="homepage" class="ui two column stackable centered grid">
   <div class="column">
+
     <img id="cdf-logo" class="ui centered fluid tiny  image" src="./img/cdf_logo.jpg">
     <div class="ui divider"></div>
     <img id="compsoc-logo" class="ui centered fluid large image" src="./img/logo.png">
     <h1 class="ui centered header">
-      Welcome to&nbsp;Cardiff&nbsp;University's<br/>
+      Welcome to&nbsp;Cardiff&nbsp;University<br/>
       Computer&nbsp;Science Society
     </h1>
     <div class="ui horizontal divider">
