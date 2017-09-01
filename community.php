@@ -48,6 +48,20 @@
           </button>
         </a>
         <br/>
+        <a href="https://www.facebook.com/groups/1376960835700851/">
+          <button class="ui large right labeled icon fluid pink button">
+            <i class="slack icon"></i>
+            Slack
+          </button>
+        </a>
+        <br/>
+        <a href="https://www.facebook.com/groups/1376960835700851/">
+          <button class="ui large right labeled icon fluid purple button">
+            <i class="talk icon"></i>
+            Discord
+          </button>
+        </a>
+        <br/>
       </div>
     </div>
     <div class="eight wide column">
@@ -90,7 +104,7 @@
         </div>
 
         <div class="ui header">FAQ</div>
-        <div class="ui header">Feedback</div>      
+        <div class="ui header">Feedback</div>
       </div>
     </div>
 
