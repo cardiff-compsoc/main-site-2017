@@ -21,8 +21,8 @@
     <div id="nav" class="ui four item secondary pointing menu">
       <a href="./events.php"    class="red item">Events</a>
       <a href="./community.php" class="red item">Community</a>
-      <a href="./projects.php"  class="red item">Projects</a>
-      <a href="./contact.php"   class="red item">Contact</a>
+      <!-- <a href="./projects.php"  class="red item">Projects</a> -->
+      <!-- <a href="./contact.php"   class="red item">Contact</a> -->
     </div>
   </div>
 </div>

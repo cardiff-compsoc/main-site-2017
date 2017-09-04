@@ -18,12 +18,18 @@
     </div>
   </div>
     <div class="column">
-      <div class="ui center aligned container">
-        <div class="ui raised segment">
-          <div class="ui horizontal divider"><h1 class="ui header">Our Events</h1></div>
-        </div>
+      <div class="ui container">
 
-
+          <h1 class="ui header">Our Events</h1>
+          <p>
+            All of CompSoc's events can be found here - bookmark this page or subscribe to our calendar to always keep up to date! Alternatively like our page on Facebook where we will be creating events for all our activities throughout the year.
+          </p>
+          <h2 class="ui  header">Socials</h2>
+          <p>
+            We offer socials to cater for all our members - alcoholic, non-alcoholic, tech-focused or just a plain ol' get together. We will also aim to do as many joint socials with other societies as possible.
+          </p>
+          <h2 class="ui header">Workshops</h2>
+          <h2 class="ui header">Academic and Industry talks</h2>
       </div>
     </div>
 
